@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<html>
+	<head>
+		<link href="{% static 'css/normalize.css' %}" rel="stylesheet">
+		<link href="{% static 'css/screen.css' %}" rel="stylesheet">
+	</head>
+	<body class="home">
+		<div id="header" class="header">
+			<h1><span class="hidden">Reitoria Ocupada</span></h1>
+			<p>Você acertou <span class="validas"></span> de <span class="total"></span></p>
+		</div>
+		<div class="all">			
+		</div>
+		<div class="body">
+			<div id="texto" class="texto">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tortor nibh, tincidunt vel metus id, pretium faucibus orci. Curabitur ornare tellus ut augue euismod malesuada. Fusce ornare turpis ac lectus pharetra sagittis. Donec at vestibulum massa. Pellentesque et rhoncus risus. Sed leo eros, mattis sit amet consectetur vitae, gravida laoreet nisl. Aliquam eu ipsum ut dolor imperdiet condimentum. Vivamus vitae porta risus, posuere consectetur nulla. Integer accumsan iaculis erat. Phasellus mollis pulvinar porttitor. Nunc neque leo, lacinia id velit sit amet, suscipit ultrices felis. Suspendisse ultrices mattis volutpat. Nullam fringilla mi sit amet magna pharetra ornare. Ut tempus, elit et malesuada maximus, diam arcu tristique velit, non aliquam erat felis quis quam. Curabitur vestibulum condimentum sem ut pretium. Maecenas tincidunt viverra ipsum euismod pellentesque.
+
+				Suspendisse potenti. Proin interdum dignissim sem, vitae facilisis turpis sodales in. Ut ut nulla porta, efficitur mi auctor, blandit tellus. Aliquam id pulvinar sapien. Maecenas a enim vulputate est semper fermentum. Nullam ullamcorper metus libero, quis ullamcorper ante gravida quis. Nunc at egestas ante. Donec dui velit, dapibus vel lacinia ac, feugiat quis nulla.
+
+				Cras tincidunt neque ac diam varius porta. Praesent vel ullamcorper orci. Nullam tempus luctus urna, quis accumsan turpis pretium pellentesque. Sed pellentesque a purus non scelerisque. Aenean auctor nisi libero, sed pulvinar dolor feugiat ut. Duis diam sapien, volutpat ut lorem pharetra, sodales gravida neque. Proin ex arcu, dictum eget turpis a, vestibulum malesuada ipsum. Mauris laoreet sollicitudin elit, in maximus leo luctus eget. Suspendisse blandit nibh cursus venenatis ornare.
+
+				Morbi aliquam efficitur velit, vitae condimentum metus ullamcorper sit amet. Proin convallis posuere arcu, quis viverra justo scelerisque a. Proin ullamcorper ex et elit laoreet, id ornare nisl mollis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum nec tincidunt leo. Nunc eget augue lorem. Fusce hendrerit ipsum nec lorem commodo, auctor dapibus justo placerat. Mauris feugiat, elit id imperdiet luctus, elit justo tincidunt purus, sit amet commodo nisl neque vel lacus. Sed sit amet quam at sem vehicula bibendum. Nunc venenatis eleifend elit. Nunc ullamcorper facilisis ex. Curabitur in facilisis purus, quis vehicula ipsum. Sed ut quam in risus malesuada sodales.
+
+				Curabitur tempor massa eget magna faucibus gravida. Mauris libero elit, rutrum suscipit euismod et, bibendum id sapien. Nam sodales purus felis, sed luctus turpis venenatis id. Fusce nec vestibulum nisi. Nunc fringilla ipsum quis odio facilisis aliquam. Mauris ac tortor rhoncus, sodales velit at, aliquam turpis. Donec nec mauris metus. Nunc sit amet consectetur eros, luctus fringilla tortor. Nullam rhoncus, elit vel finibus ultricies, eros velit aliquam nibh, in tincidunt nisl ex vitae felis. Nullam luctus, erat vitae blandit dignissim, sapien nisi efficitur purus, sed euismod dolor libero ut odio. Nulla facilisi.</p>
+			</div>
+			<div class="footer">
+				<div class="botoes">
+					<button id="start">Começar</button>
+					<button id="restart" style="display:none">Recomeçar</button>
+					<button id="continue" style="display:none">Próximo</button>
+					<button id="ufpel" class="opinar ufpel" data-opina="ufpel" style="display:none">UFPEL</button>
+					<button id="outro" class="opinar outro" data-opina="outro" style="display:none"></button>
+				</div>
+			</div>
+		</div>
+		<script src="{% static 'js/jquery-1.11.1.min.js' %}"></script>
+		<script src="{% static 'js/main.js' %}"></script>
+	</body>
+</html>
