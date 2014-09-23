@@ -77,7 +77,7 @@ $(function() {
             finalizar()
             return false
         }
-        $('.all').attr('style','background:url("/media/'+questionAtual.fields.imagem+'")')
+        $('.all').attr('style','background:url("/media/'+questionAtual.fields.imagem+'") no-repeat center')
         $('.all').addClass('alpha')
         $('#outro').html(questionAtual.fields.outro)
     };
